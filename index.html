@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#1B1F29" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>This is a static template, there is no bundler or bundling involved!</h1>
+    <nav class="navbar">
+      <ul>
+        <li>/HOME</li>
+        <li>/CONTACT</li>
+        <li>/ABOUT</li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <div class="container-hero">
+        <h1>./Hello <span class="world"> World</span></h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing</p>
+        <button class="btn-dark">Jelajah</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <h1 class="card-title">HTML</h1>
+            <p class="card-subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consectetur,
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h1 class="card-title">CSS</h1>
+            <p class="card-subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consectetur,
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h1 class="card-title">JS</h1>
+            <p class="card-subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consectetur,
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="row-footer">
+        <div class="col-foot">Library :</div>
+        <div class="col-foot">Code</div>
+      </div>
+      <div class="copyright">
+        <p class="copy">@2020</p>
+      </div>
+    </footer>
   </body>
 </html>
