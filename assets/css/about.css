@@ -1,0 +1,16 @@
+.img-about {
+  width: 17%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  filter: grayscale(1);
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: #000000;
+  box-shadow: 0px 0px 8px #000000;
+}
+@media only screen and (max-width: 600px) {
+  .img-about {
+    width: 32%;
+  }
+}
