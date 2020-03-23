@@ -19,6 +19,8 @@ body {
 
 .navbar {
   background-color: #282a2f;
+  position: fixed;
+  width: 100%;
 }
 
 .navbar ul {
@@ -33,9 +35,20 @@ body {
   padding: 20px;
 }
 
+.navbar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  border-bottom: 1px solid transparent;
+}
+
+.navbar ul li a:hover {
+  border-bottom: 1px solid #ffffff;
+  transition: border-bottom ease-out 0.2s;
+}
+
 .hero {
   height: 300px;
-  padding-top: 3rem;
+  padding-top: 3.3rem;
 }
 
 .container-hero {
@@ -77,6 +90,19 @@ body {
   text-align: center;
   background-color: #ffffff;
   color: #242831;
+}
+
+.card {
+  padding: 10px;
+}
+
+.img-card {
+  width: 25%;
+  height: auto;
+}
+
+.card-title {
+  margin: 2px;
 }
 
 @media only screen and (max-width: 600px) {
